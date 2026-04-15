@@ -20,7 +20,8 @@ ARG N8N_VERSION=latest
 ARG JS_PACKAGES="moment@2.30.1,axios@^1.7.0,lodash@^4.17.21"
 
 # Python packages: package==version,package==version,...
-ARG PY_PACKAGES="requests==2.31.0,python-dateutil==2.8.2"
+ARG PY_PACKAGES="requests==2.31.0,python-dateutil==2.8.2,python-docx"
+
 
 # ============================================================================
 # Stage 1: Build JavaScript Dependencies
